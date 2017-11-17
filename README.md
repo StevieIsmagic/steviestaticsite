@@ -1,2 +1,8 @@
-# stevie-static-site
-My static portfolio site 
+# Stevie Static Site
+
+# My static portfolio site 
+
+# I enjoy simplicity over many other things
+
+
+
