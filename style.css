@@ -178,3 +178,9 @@ body > .inner {
 body.pg-loaded > .inner {
   display: block;
 }
+/* LOADING MESSAGE  */
+
+.loading-message {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+}
