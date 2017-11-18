@@ -30,7 +30,7 @@
    transition: left 0.2s;
  }
 
- .mui-appbar > .mui--appbar-line-height {
+ div > .mui-appbar > .mui--appbar-line-height {
   background-color: hotpink;
  }
  
