@@ -31,7 +31,7 @@ jQuery(function($) {
 
   $('.js-show-sidedrawer').on('click', showSidedrawer);
   $('.js-hide-sidedrawer').on('click', hideSidedrawer);
-});
+
 
 /* EXPAND / COLLAPSE MENU ITEMS */
 var $titleEls = $('strong', $sidedrawerEl);
@@ -42,4 +42,5 @@ $titleEls
 
 $titleEls.on('click', function() {
   $(this).next().slideToggle(200);
+});
 });
