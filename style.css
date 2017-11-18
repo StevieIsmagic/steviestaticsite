@@ -31,7 +31,7 @@
  }
 
  div > .mui-appbar > .mui--appbar-line-height {
-  background-color: hotpink;
+  background-color: hotpink!important;
  }
  
  #sidedrawer {
