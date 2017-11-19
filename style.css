@@ -193,6 +193,8 @@ body.pg-loaded > .inner {
 img.pg-loading-logo {
   height: auto;
 } */
-h1.pg-loading-logo-header > img.pg-loading-logo{
+
+/* h1.pg-loading-logo-header > img.pg-loading-logo{
   height: 300px;
-}
+} */
+
