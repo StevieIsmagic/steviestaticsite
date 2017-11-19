@@ -186,3 +186,13 @@ body.pg-loaded > .inner {
   background-color: orange!important;
   
 }
+
+/* PG-LOADING LOGO FORMATTING */
+
+/* 
+img.pg-loading-logo {
+  height: auto;
+} */
+h1.pg-loading-logo-header > img.pg-loading-logo{
+  height: 300px;
+}
