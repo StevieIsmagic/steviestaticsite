@@ -6,7 +6,7 @@
    height: 100%;
    width: auto;
    background-color: #eee;
-   background-image: url("./assets/rainbow-building.jpg");
+   background-image: url("./assets/male.png");
    background-size: cover;
    background-repeat: no-repeat; 
    background-attachment: fixed;
@@ -37,7 +37,7 @@
  }
 
  .header-color {
-  background-color: #65beb4!important;
+  background-color: #212424!important;
  }
  
  #sidedrawer {
@@ -133,7 +133,7 @@
   * Footer CSS
   */
  #footer {
-   background-color: teal;
+   background-color: rgb(12, 170, 170);
    color: #fff;
  }
  
@@ -209,5 +209,5 @@ img.pg-loading-logo{
 /* BACKROUND IMAGE */
 
 .mui--z4 {
-  background-color: rgba(255, 255,255, 0.9);
+  background-color: rgba(255, 255,255, 0.3);
 }
