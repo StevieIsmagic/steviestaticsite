@@ -39,6 +39,11 @@
  .header-color {
   background-color: #212424!important;
  }
+
+ .mui--text-title {
+   color: white;
+   background-color: hotpink;
+ }
  
  #sidedrawer {
    position: fixed;
@@ -133,7 +138,7 @@
   * Footer CSS
   */
  #footer {
-   background-color: rgba(107, 122, 122, 0.548);
+   background-color: rgba(55, 61, 61, 0.9);
    color: #fff;
  }
  
