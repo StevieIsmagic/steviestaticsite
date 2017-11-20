@@ -4,8 +4,11 @@
  html,
  body {
    height: 100%;
+   width: auto;
    background-color: #eee;
-   background-image: url("./assets/white-mosaic.jpg");
+   background-image: url("./assets/rainbow-building.jpg");
+   background-size: cover;
+   background-repeat: no-repeat; 
  }
  
  html,
@@ -205,5 +208,5 @@ img.pg-loading-logo{
 /* BACKROUND IMAGE */
 
 .mui--z4 {
-  background-color: white;
+  background-color: rgba(255, 255,255, 0.5);
 }
