@@ -9,6 +9,7 @@
    background-image: url("./assets/rainbow-building.jpg");
    background-size: cover;
    background-repeat: no-repeat; 
+   background-attachment: fixed;
  }
  
  html,
@@ -208,5 +209,5 @@ img.pg-loading-logo{
 /* BACKROUND IMAGE */
 
 .mui--z4 {
-  background-color: rgba(255, 255,255, 0.5);
+  background-color: rgba(255, 255,255, 0.9);
 }
