@@ -32,7 +32,7 @@
  }
 
  .header-color {
-  background-color: teal!important;
+  background-color: #65beb4!important;
  }
  
  #sidedrawer {
@@ -128,7 +128,7 @@
   * Footer CSS
   */
  #footer {
-   background-color: #65beb4 ;
+   background-color: teal;
    color: #fff;
  }
  
