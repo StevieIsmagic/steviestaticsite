@@ -183,7 +183,7 @@ body.pg-loaded > .inner {
 .loading-message {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2em;
-  background-color: orange !important;
+  background-color: orange!important;
 }
 
 /* PG-LOADING LOGO FORMATTING */
@@ -200,5 +200,3 @@ img.pg-loading-logo {
 img.pg-loading-logo{
   height: 400px;
 }
-
-/* SPINNER */
