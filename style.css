@@ -37,7 +37,7 @@
  }
 
  .header-color {
-  background-color: #009588!important;
+  background-color: #009588 !important;
  }
 
  .mui--text-title {
@@ -52,7 +52,7 @@
    left: -200px;
    overflow: auto;
    z-index: 2;
-   background-color: #fec108; 
+   background-color: #374046; 
    transition: transform 0.2s;
  }
  
