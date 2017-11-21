@@ -53,6 +53,7 @@
    overflow: auto;
    z-index: 2;
    background-color: #3d3f41ea; 
+   color: white;
    transition: transform 0.4s;
  }
  
@@ -214,5 +215,5 @@ img.pg-loading-logo{
 /* BACKROUND IMAGE */
 
 .mui--z4 {
-  background-color: rgba(255, 255,255, 0.3);
+  background-color: rgba(255, 255, 255, 0.596);
 }
