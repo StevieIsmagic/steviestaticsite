@@ -32,7 +32,7 @@
    right: 0;
    left: 0;
    z-index: 2;
-   transition: left 0.4s;
+   transition: left 0.2s;
    
  }
 
@@ -54,14 +54,14 @@
    z-index: 2;
    background-color: #3d3f41ea; 
    color: white;
-   transition: transform 0.4s;
+   transition: transform 0.2s;
  }
  
  #content-wrapper {
    min-height: 100%;
    overflow-x: hidden;
    margin-left: 0px;
-   transition: margin-left 0.4s;
+   transition: margin-left 0.2s;
  
    /* sticky bottom */
    margin-bottom: -160px;
@@ -71,7 +71,7 @@
  #footer {
    height: 120px;
    margin-left: 0px;
-   transition: margin-left 0.4s;
+   transition: margin-left 0.2s;
  }
  
  @media (min-width: 768px) {
