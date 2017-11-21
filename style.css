@@ -32,7 +32,7 @@
    right: 0;
    left: 0;
    z-index: 2;
-   transition: left 0.2s;
+   transition: left 0.4s;
    
  }
 
@@ -43,10 +43,6 @@
  .mui--text-title {
    color: white;
  }
-
- /* .mui--appbar-line-height {
-   height: auto;
- } */
  
  #sidedrawer {
    position: fixed;
@@ -57,14 +53,14 @@
    overflow: auto;
    z-index: 2;
    background-color: #3d3f41ea; 
-   transition: transform 0.2s;
+   transition: transform 0.4s;
  }
  
  #content-wrapper {
    min-height: 100%;
    overflow-x: hidden;
    margin-left: 0px;
-   transition: margin-left 0.2s;
+   transition: margin-left 0.4s;
  
    /* sticky bottom */
    margin-bottom: -160px;
@@ -74,7 +70,7 @@
  #footer {
    height: 120px;
    margin-left: 0px;
-   transition: margin-left 0.2s;
+   transition: margin-left 0.4s;
  }
  
  @media (min-width: 768px) {
