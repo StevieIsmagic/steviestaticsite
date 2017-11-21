@@ -52,7 +52,7 @@
    left: -200px;
    overflow: auto;
    z-index: 2;
-   background-color: #fff;
+   background-color: #fec108; 
    transition: transform 0.2s;
  }
  
@@ -192,7 +192,7 @@ body.pg-loaded > .inner {
 .loading-message {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2em;
-  background-color: orange!important;
+  background-color: #fec108 !important; 
 }
 
 /* PG-LOADING LOGO FORMATTING */
