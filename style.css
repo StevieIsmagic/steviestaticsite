@@ -1,12 +1,29 @@
 /**
  * Body CSS
  */
+
+ body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("./assets/pencils-yellow.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
  html,
  body {
    height: 100%;
    width: auto;
-   background-color: #eee;
-   background-image: url("./assets/pencils-yellow.jpg");
+   /* background-color: #eee; */
+   /* background-image: url("./assets/pencils-yellow.jpg"); */
    background-size: cover;
    background-repeat: no-repeat; 
    background-attachment: fixed;
@@ -21,6 +38,7 @@
    -moz-osx-font-smoothing: grayscale;
    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
  }
+ 
  
  
  /**
