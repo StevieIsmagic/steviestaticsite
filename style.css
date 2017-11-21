@@ -44,9 +44,9 @@
    color: white;
  }
 
- .mui--appbar-line-height {
+ /* .mui--appbar-line-height {
    height: auto;
- }
+ } */
  
  #sidedrawer {
    position: fixed;
@@ -56,7 +56,7 @@
    left: -200px;
    overflow: auto;
    z-index: 2;
-   background-color: #676d7088; 
+   background-color: #3d3f41ea; 
    transition: transform 0.2s;
  }
  
