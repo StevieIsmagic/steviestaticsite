@@ -151,7 +151,7 @@
  */
 #sidedrawer-brand {
   padding-left: 20px;
-  color: whitesmoke;
+  color: whitesmoke !important;
 }
 
 #sidedrawer ul {
