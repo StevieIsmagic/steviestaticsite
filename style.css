@@ -6,7 +6,7 @@
    height: 100%;
    width: auto;
    background-color: #eee;
-   background-image: url("./assets/male.png");
+   background-image: url("./assets/pencils-yellow.jpg");
    background-size: cover;
    background-repeat: no-repeat; 
    background-attachment: fixed;
@@ -205,6 +205,7 @@ img.pg-loading-logo{
 
 .mui--z4 {
   background-color: rgba(255, 255, 255, 0.596);
+  text-align: center;
 }
 /* FADE IN PAGE-CONTENT AFTER LOAD-PAGE */
 
