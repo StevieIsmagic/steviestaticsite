@@ -52,7 +52,7 @@
    left: -200px;
    overflow: auto;
    z-index: 2;
-   background-color: #3d3f41ea; 
+   background-color: #3d3f41ea;
    color: white;
    transition: transform 0.2s;
  }
@@ -116,7 +116,6 @@
    transform: translate(200px);
  }
  
- 
  /**
   * Header CSS
   */
@@ -132,7 +131,6 @@
    color: #fff;
    text-decoration: none;
  }
- 
  
  /**
   * Footer CSS
@@ -189,7 +187,7 @@ body > .inner {
 body.pg-loaded > .inner {
   display: block;
 }
-/* LOADING MESSAGE  */
+/* LOADING-PAGE MESSAGE  */
 
 .loading-message {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -197,23 +195,71 @@ body.pg-loaded > .inner {
   background-color: #fec108 !important; 
 }
 
-/* PG-LOADING LOGO FORMATTING */
 
-/* 
-img.pg-loading-logo {
-  height: auto;
-} */
-
-/* h1.pg-loading-logo-header {
-  height: 330px;
-} */
-
+/* ELEPHANT IMAGE POSITIONING */
 img.pg-loading-logo{
   height: 400px;
 }
 
-/* BACKROUND IMAGE */
+/* CONTENT CARDS BACKGROUND */
 
 .mui--z4 {
   background-color: rgba(255, 255, 255, 0.596);
 }
+/* FADE IN PAGE-CONTENT AFTER LOAD-PAGE */
+
+.fade-in {
+  /* animation: fadeIn 1.0s ease forwards; */
+  animation: fadeIn ease-in forwards 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+

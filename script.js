@@ -33,14 +33,14 @@ jQuery(function($) {
   $('.js-hide-sidedrawer').on('click', hideSidedrawer);
 
 
-/* EXPAND / COLLAPSE MENU ITEMS */
-var $titleEls = $('strong', $sidedrawerEl);
+  /* EXPAND / COLLAPSE MENU ITEMS */
+  var $titleEls = $('strong', $sidedrawerEl);
 
-$titleEls
-  .next()
-  .hide();
+  $titleEls
+    .next()
+    .hide();
 
-$titleEls.on('click', function() {
-  $(this).next().slideToggle(200);
-});
+  $titleEls.on('click', function() {
+    $(this).next().slideToggle(200);
+  });
 });
