@@ -43,6 +43,10 @@
  .mui--text-title {
    color: white;
  }
+
+ .mui--appbar-line-height {
+   height: auto;
+ }
  
  #sidedrawer {
    position: fixed;
