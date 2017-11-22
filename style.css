@@ -58,6 +58,10 @@
  .header-color {
   background-color: #00796b !important;
  }
+ div#sidedrawer-brand.mui--appbar-line-height {
+   padding-left: 30px;
+   height: 40px
+ }
 
  .mui--text-title {
    color: white !important;
