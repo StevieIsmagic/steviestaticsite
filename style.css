@@ -59,7 +59,9 @@
   background-color: #00796b !important;
  }
  div#sidedrawer-brand.mui--appbar-line-height {
-   padding-left: 30px;
+   padding-left: 20px;
+   margin-bottom: 50px;
+   
    height: 0%
  }
 
