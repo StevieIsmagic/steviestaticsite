@@ -238,5 +238,6 @@ img.pg-loading-logo{
   text-decoration: none;
   border-radius: 50%;
   /* background-color: #fec108 !important; */
+  float: right;
  
 }
