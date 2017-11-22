@@ -228,3 +228,14 @@ img.pg-loading-logo{
   text-align: center;
 }
 
+/* FONT AWESOME SOCIAL MEDIA LINKS ON HEADER  */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #fec108 !important; 
+}
