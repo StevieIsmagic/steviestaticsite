@@ -58,12 +58,20 @@
  .header-color {
   background-color: #00796b !important;
  }
+ /* THIS IS THE TOP RIGHT WHITE DIV
+    ITS BOTTOM NEEDS TO BE REDUCED JUST A BIT
+    IN ORDER TO LINE UP PERFECTLY WITH THE REST 
+    OF THE APPBAR
+ 
  div#sidedrawer-brand.mui--appbar-line-height {
    padding-left: 20px;
-   /* margin-bottom: 50px; */
-   /* height: 0% */
- }
+   margin-bottom: 50px;
+   height: 0%
+ } */
 
+ .mui--appbar-line-height{
+   line-height: 75px;
+ }
  .mui--text-title {
    color: white !important;
  }
