@@ -238,7 +238,7 @@ img.pg-loading-logo{
 
 /* a.anchor needed in order to properly line up hashtag links */
 a.anchor {
-  display: block;
+  /* display: block; */
   position: relative;
   top: -250px;
   /* visibility: hidden; */
