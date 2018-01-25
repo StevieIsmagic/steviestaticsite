@@ -236,6 +236,16 @@ img.pg-loading-logo{
 
 /* CONTENT CARDS BACKGROUND */
 
+.mui--z4::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+
 .mui--z4 {
   background-color: rgba(255, 255, 255, 0.596);
   text-align: center;
