@@ -236,13 +236,12 @@ img.pg-loading-logo{
 
 /* CONTENT CARDS BACKGROUND */
 
-.mui--z4::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -285px; 
-  height: 285px; 
-  visibility: hidden; 
-  pointer-events: none;
+/* a.anchor needed in order to properly line up hashtag links */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  /* visibility: hidden; */
 }
 
 
