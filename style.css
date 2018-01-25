@@ -255,3 +255,9 @@ img.pg-loading-logo{
   float: right;
  
 }
+
+.smaller-image {
+  width: 15em;
+  margin-top: 100px;
+  border-radius: 50%;
+}
