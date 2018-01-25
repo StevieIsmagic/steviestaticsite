@@ -239,6 +239,7 @@ img.pg-loading-logo{
 .mui--z4 {
   background-color: rgba(255, 255, 255, 0.596);
   text-align: center;
+  margin: 50px;
 }
 
 /* FONT AWESOME SOCIAL MEDIA LINKS ON HEADER  */
@@ -260,4 +261,9 @@ img.pg-loading-logo{
   width: 15em;
   /* margin-top: 100px; */
   border-radius: 50%;
+}
+
+#nav-margin-top {
+  margin-top: 100px;
+
 }
