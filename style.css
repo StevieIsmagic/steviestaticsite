@@ -279,7 +279,7 @@ a.anchor {
 }
 
 div span { 
-  margin-top: -9vh;        /* Size of fixed header */
-  padding-bottom: 9vh; 
+  margin-top: -11vh;        /* Size of fixed header */
+  padding-bottom: 11vh; 
   display: block; 
 }
