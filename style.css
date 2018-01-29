@@ -283,3 +283,7 @@ div span {
   padding-bottom: 10vh; 
   display: block; 
 }
+
+.languages {
+  font-size: 4em !important;
+}
