@@ -298,8 +298,10 @@ div span {
   font-size: 6em !important;
   margin: 10px;
   padding: 5px;
+  /* border: 2px solid green; */
 }
 
-.languages-parent {
+.languages-list {
   padding: 5px;
+  /* border: 2px solid pink; */
 }
