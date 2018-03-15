@@ -8,7 +8,7 @@ I built it from first principles.
 
 It's a single HTML page with a sprinkle of CSS and jQuery.
 
-I followed the Material Design paradigm and added my own little twist.
+I followed Material Design patterns with my own little twist.
 
 For a long time I thought about what I wanted to create as my personal site.
 
