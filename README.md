@@ -1,6 +1,6 @@
 # Stevie's Static Site
 
-## `I enjoy simplicity over many other things..`
+## `I enjoy simplicity over much everything else..`
 
 This is the first website I make for myself.
 
