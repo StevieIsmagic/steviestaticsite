@@ -89,7 +89,7 @@ img {
   left: -200px;
   overflow: auto;
   z-index: 2;
-  background-color: #ff2222ab;
+  background-color: #ff222266;
   color: white;
   transition: transform 0.2s;
 }
@@ -238,7 +238,7 @@ body.pg-loaded>.inner {
 .loading-message {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2em;
-  background-color: rgba(250, 0, 0, 0.9) !important;
+  background-color: mediumaquamarine !important;
 }
 
 

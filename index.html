@@ -24,10 +24,10 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="./style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.js"></script>
   <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="./script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.js"></script>
 
 </head>
 
@@ -250,11 +250,11 @@
   <script type="text/javascript">
     window.loading_screen = window.pleaseWait({
       logo: "assets/baby-mom.svg",
-      backgroundColor: 'rgba(107, 122, 122, 0.3)',
+      backgroundColor: 'AliceBlue',
       loadingHtml: "<p class='loading-message'>An Elephant Never Forgets A Friend</p>"
     });
 
-    // window.loading_screen.updateLoadingHtml( "<p class='loading-message'>Hiii Mama</p>" );
+    window.loading_screen.updateLoadingHtml( "<p class='loading-message'>Hiii Mama</p>" );
   </script>
   <script>
     window.loading_screen.finish();
