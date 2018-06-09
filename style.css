@@ -89,7 +89,7 @@ img {
   left: -200px;
   overflow: auto;
   z-index: 2;
-  background-color: #ff222282;
+  background-color: #ff2222ab;
   color: white;
   transition: transform 0.2s;
 }
@@ -269,6 +269,10 @@ a.anchor {
   margin: 15px;
   padding: 20px;
 }
+
+/* .mui-panel {
+  background-color: #fff9;
+} */
 
 
 /* FONT AWESOME SOCIAL MEDIA LINKS ON HEADER  */
