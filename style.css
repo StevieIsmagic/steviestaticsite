@@ -274,10 +274,32 @@ a.anchor {
   padding: 20px;
 }
 
-/* .mui-panel {
-  background-color: #fff9;
-} */
+.mui--z5 {
+  background-color: rgba(255, 255, 255, 0.596);
+  /* text-align: center; */
+  height: auto;
+  width: 200px;
+  margin: 35px;
+  padding: 50px;
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
 
+}
+
+#project-scroll {
+  height: 400px;
+  width: 100%;
+  border: 6px double mediumaquamarine;
+  overflow: scroll;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+  flex-basis: auto;
+  
+}
 
 /* FONT AWESOME SOCIAL MEDIA LINKS ON HEADER  */
 
