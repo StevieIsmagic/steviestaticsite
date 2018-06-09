@@ -27,6 +27,8 @@
   <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.js"></script>
+
 </head>
 
 <!-- BODY -->
@@ -59,11 +61,6 @@
         <li>
           <a href="#learning">
             <strong>LEARNING</strong>
-          </a>
-        </li>
-        <li>
-          <a href="#mentor">
-            <strong>MY MENTOR</strong>
           </a>
         </li>
         <li>
@@ -128,19 +125,24 @@
           <h1>Projects</h1>
 
           <div>
-            <div class="mui-panel">
-              <!-- content -->
-              <button class="mui-btn mui-btn--fab">+</button>
+            <!-- <div class="mui-panel">
+              <button class="mui-btn mui-btn--fab"><></button>
               <p>Project 1</p>
             </div>
-            <div class="mui-panel">
-              <!-- content -->
+            <div class="mui-panel">             
               <p>Project 2</p>
             </div>
-            <div class="mui-panel">
-              <!-- content -->
+            <div class="mui-panel">             
               <p>Project 3</p>
-            </div>
+            </div> -->
+            <ul class="mui-tabs__bar">
+              <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="pane-default-1">Full-Stack</a></li>
+              <li><a data-mui-toggle="tab" data-mui-controls="pane-default-2">Wordpress</a></li>
+              <li><a data-mui-toggle="tab" data-mui-controls="pane-default-3">DERP DERP</a></li>
+            </ul>
+            <div class="mui-tabs__pane mui--is-active" id="pane-default-1">Pane-1</div>
+            <div class="mui-tabs__pane" id="pane-default-2">Pane-2</div>
+            <div class="mui-tabs__pane" id="pane-default-3">Pane-3</div>
           </div>
 
         </div>
@@ -175,13 +177,6 @@
         </div>
 
         <div class="mui--z4">
-          <span id="mentor"> &nbsp; </span>
-          <h1>Current Mentor</h1>
-          <p>I currently find great strength</p>
-          <p>in the words of Martin Luther King Jr.</p>
-        </div>
-
-        <div class="mui--z4">
           <span id="about-elephants"> &nbsp; </span>
           <h1>About Elephants</h1>
           <p>Elephants are lovers too.</p>
@@ -197,10 +192,10 @@
 
         <div class="mui--z4">
           <span id="about-me"> &nbsp; </span>
-          <h1>About Mee</h1>
+          <h1>About Me</h1>
           <p>I am a simple man</p>
           <p>with dreams of doing right</p>
-          <p>for the world.</p>
+          <p>for the world..</p>
         </div>
 
 
@@ -211,12 +206,11 @@
     <footer id="footer">
       <div class="mui-container-fluid">
         <br> Made with ♥ by
-        <a href="https://www.stevieismagic.com">Stevie IsMagic</a>
+        <a href="https://stevieismagic.wordpress.com/">Stevie IsMagic</a>
       </div>
     </footer>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.js"></script>
   <script type="text/javascript">
     window.loading_screen = window.pleaseWait({
       logo: "assets/baby-mom.svg",

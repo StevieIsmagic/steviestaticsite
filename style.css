@@ -56,6 +56,11 @@ buttons {
   background-color: #00796b !important;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 
 /* THIS IS THE TOP RIGHT WHITE DIV
     ITS BOTTOM NEEDS TO BE REDUCED JUST A BIT
@@ -69,7 +74,7 @@ buttons {
  } */
 
 .mui--appbar-line-height {
-  line-height: 75px;
+  line-height: 64px;
 }
 
 .mui--text-title {
@@ -84,7 +89,7 @@ buttons {
   left: -200px;
   overflow: auto;
   z-index: 2;
-  background-color: #3d3f41ea;
+  background-color: #ff222282;
   color: white;
   transition: transform 0.2s;
 }
@@ -170,7 +175,8 @@ a {
   */
 
 #footer {
-  background-color: rgba(55, 61, 61, 0.9);
+  background-color: rgba(55, 61, 61, 0.85);
+  /* background-color: 3d3f41ea; */
   color: #fff;
 }
 
@@ -232,14 +238,16 @@ body.pg-loaded>.inner {
 .loading-message {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2em;
-  background-color: #fec108 !important;
+  background-color: rgba(250, 0, 0, 0.9) !important;
 }
 
 
 /* ELEPHANT IMAGE POSITIONING */
 
 img.pg-loading-logo {
-  height: 400px;
+  /* height: 400px; */
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -273,13 +281,11 @@ a.anchor {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  /* background-color: #fec108 !important; */
   float: right;
 }
 
 .smaller-image {
   width: 15em;
-  /* margin-top: 100px; */
   border-radius: 50%;
 }
 
@@ -298,12 +304,10 @@ div span {
   font-size: 6em !important;
   margin: 10px;
   padding: 5px;
-  /* border: 2px solid green; */
 }
 
 .languages-list {
   padding: 5px;
-  /* border: 2px solid pink; */
 }
 
 .video-container {
