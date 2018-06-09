@@ -232,12 +232,16 @@ body.pg-loaded>.inner {
   display: block;
 }
 
+.pg-loading-screen .pg-loading-center-middle {
+  vertical-align: baseline;
+}
+
 
 /* LOADING-PAGE MESSAGE  */
 
 .loading-message {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   background-color: mediumaquamarine !important;
 }
 
