@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113538409-1"></script>
@@ -32,7 +31,6 @@
 </head>
 
 <!-- BODY -->
-
 <body class="fade-in">
   <div class="inner">
     <div id="sidedrawer" class="mui--no-user-select">
@@ -218,7 +216,7 @@
 
           <!-- 4:3 aspect ratio -->
           <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/lSXNqsOoURg?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" width="781"
+            <iframe src="" allowfullscreen="allowfullscreen" width="781"
               height="440" frameborder="0">
             </iframe>
           </div>
@@ -234,7 +232,6 @@
         </div>
 
       </div>
-
 
     </div>
     <footer id="footer">
@@ -252,14 +249,13 @@
       backgroundColor: 'AliceBlue',
       loadingHtml: "<p class='loading-message'>An Elephant Never Forgets A Friend</p>"
     });
-
-    // window.loading_screen.updateLoadingHtml( "<p class='loading-message'>Hiii Mama</p>" );
   </script>
   <script>
- window.setTimeout(() => {
-  window.loading_screen.finish();
- }, 2700);
-    
+    window.setTimeout(() => {
+      window.loading_screen.finish();
+      var f = document.querySelectorAll('iframe')[0];
+    f.src = "https://www.youtube.com/embed/lSXNqsOoURg?rel=0&amp;showinfo=0";
+    }, 2700);  
   </script>
 
 </body>
