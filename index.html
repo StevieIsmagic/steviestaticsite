@@ -113,10 +113,10 @@
 
         <div class="mui--z4">
           <br>
-          <h4>'We are lovers of the beautiful,</h4>
-          <h4>yet simple in our tastes,</h4>
-          <h4>and we cultivate the arts </h4>
-          <h4>without loss of manliness.'</h4>
+          <h4>'We are lovers of the beautiful, yet simple in our tastes,</h4>
+          <h4></h4>
+          <h4>and we cultivate the arts without loss of manliness.' </h4>
+          <h4></h4>
           <i class="devicon-gradle-plain"></i>
         </div>
 
@@ -254,10 +254,13 @@
       loadingHtml: "<p class='loading-message'>An Elephant Never Forgets A Friend</p>"
     });
 
-    window.loading_screen.updateLoadingHtml( "<p class='loading-message'>Hiii Mama</p>" );
+    // window.loading_screen.updateLoadingHtml( "<p class='loading-message'>Hiii Mama</p>" );
   </script>
   <script>
-    window.loading_screen.finish();
+ window.setTimeout(() => {
+  window.loading_screen.finish();
+ }, 2700);
+    
   </script>
 
 </body>
