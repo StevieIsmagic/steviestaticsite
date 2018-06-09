@@ -66,12 +66,7 @@ img {
     ITS BOTTOM NEEDS TO BE REDUCED JUST A BIT
     IN ORDER TO LINE UP PERFECTLY WITH THE REST 
     OF THE APPBAR
- 
- div#sidedrawer-brand.mui--appbar-line-height {
-   padding-left: 20px;
-   margin-bottom: 50px;
-   height: 0%
- } */
+ */
 
 .mui--appbar-line-height {
   line-height: 64px;
@@ -248,11 +243,10 @@ body.pg-loaded>.inner {
 
 /* ELEPHANT IMAGE POSITIONING */
 
-img.pg-loading-logo {
-  /* height: 400px; */
+/* img.pg-loading-logo {
   max-width: 100%;
   height: auto;
-}
+} */
 
 
 /* CONTENT CARDS BACKGROUND */
