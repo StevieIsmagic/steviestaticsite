@@ -2,17 +2,21 @@
 
 ## `I enjoy simplicity over much everything else..`
 
-This is the first website I make for myself.
+This is the fourth portfolio website I make for myself.
 
-I built it from first principles.
+Each time I do, I learn more and more and more and more.
+
+I built this one from first principles.
 
 It's a single HTML page with a sprinkle of CSS and jQuery.
 
-I followed Material Design patterns with my own little twist.
+I followed Material Design patterns plus my own little twist.
 
-For a long time I thought about what I wanted to create as my personal site.
+For a long time I thought about what I wanted to create as my next personal site.
 
 I desired for whatever I built to be a representation of my true self..
+
+Authenticity is important to me :)
 
 ---
 
@@ -35,6 +39,8 @@ But for now, I am happy with it.
 I'll be honest, I couldn't get a lot of things to line up just how I wanted.
 
 And I couldn't get my elephant .svg to render properly on mobile.
+
+Grrr..
 
 It's a never-ending work in progress..
 
