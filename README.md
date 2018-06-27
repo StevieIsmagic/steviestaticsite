@@ -1,5 +1,18 @@
 # Stevie's Static Site
 
+## Website Performance
+
+I will do better..
+
+`Current Audit`
+![current](./assets/updated.png)
+
+`Start Audit`
+![start](./assets/started.png)
+
+
+***
+
 ## `I enjoy simplicity over much everything else..`
 
 This is the fourth portfolio website I make for myself.
